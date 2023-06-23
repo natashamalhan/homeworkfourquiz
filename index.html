@@ -2,50 +2,36 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Quiz! </title>
+  <title>Code Quiz</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-  <header class="header">
-      <button class= "highscores"> View High Scores </button>
-      <h1 class="clock"></h1>
-  </header>
+  <div class="container">
+    <h1>Code Quiz</h1>
 
-  <body>
-    <main id="main">
-        <section class="quiz-start">
-            <h2> Welcome to the Quiz! </h2>
-            <p> You will have 60 seconds to answer 5 questions. </p>
-            <button class="start"> Start Quiz </button>
-        </section>
-      <section class="question" id="q1">
-        <h2 id="question-title"></h2>
-        <h3 class="answers">
-          <ul id="choices">
-        </ul>
-        </h3>
-        <p id="result"></p>
-      </section>
-  
-              <section class="highscores hidden">
-                <p></p>
-              
-              <form>
-                  <input type="text" id="initials">
-                  <button id="initials-btn">Submit</button>
-              </form>
-              
-          </section>
-  
-          <section class="score hidden">
-              <button id="replay">Replay</button>
-          </section>
-      
-    </main>
-  </body>
-   <script src="./script.js"></script>
-  </html>
+    <p id="question-text"></p>
+
+    <div id="choices"></div>
+
+    <button id="start-btn" class="w3-button w3-white w3-border w3-border-green w3-round-large">Start</button>
+
+    <div id="timer">Time: <span id="time-remaining"></span></div>
+
+    <div id="game-over">
+      <h2>Game Over!</h2>
+        <form id="score-form">
+          <label for="initials">Enter Initials:</label>
+          <input type="text" id="initials" name="initials">
+          <button type="submit" class="w3-button w3-white w3-border w3-border-blue w3-round-large">Save</button>
+        </form>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

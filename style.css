@@ -1,4 +1,98 @@
-.hidden {
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  #choices {
+    margin-bottom: 10px;
+  }
+  
+  #timer {
+    margin-bottom: 20px;
+  }
+  
+  #game-over {
     display: none;
-}
-
+  }
+  
+  #game-over h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #score-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #score-form label {
+    margin-right: 5px;
+  }
+  
+  #score-form input[type="text"] {
+    width: 100px;
+    padding: 5px;
+  }
+  
+  #score-form button[type="submit"] {
+    padding: 5px 10px;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  #choices {
+    margin-bottom: 10px;
+  }
+  
+  #timer {
+    margin-bottom: 20px;
+  }
+  
+  #game-over {
+    display: none;
+  }
+  
+  #game-over h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #score-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  #score-form label {
+    margin-right: 5px;
+  }
+  
+  #score-form input[type="text"] {
+    width: 100px;
+    padding: 5px;
+  }
+  
+  #score-form button[type="submit"] {
+    padding: 5px 10px;
+  }
+  
