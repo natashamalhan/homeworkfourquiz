@@ -95,4 +95,10 @@
   #score-form button[type="submit"] {
     padding: 5px 10px;
   }
-  
+
+  div, p, h1, h2, h3, h4, h5, h6, span {
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
