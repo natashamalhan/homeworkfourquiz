@@ -16,5 +16,37 @@
   </header>
 
   <body>
-
-   
+    <main id="main">
+        <button class="start"></button>
+        <section class="quiz-start">
+            <h2> Welcome to the Quiz! </h2>
+            <p> You will have 60 seconds to answer 5 questions. </p>
+            <button class="start"> Start Quiz </button>
+        </section>
+      <section class="question" id="q1">
+        <h2 id="question-title"></h2>
+        <h3 class="answers">
+          <ul id="choices">
+        </ul>
+        </h3>
+        <p id="result"></p>
+      </section>
+  
+              <section class="highscores hidden">
+                <p></p>
+              
+              <form>
+                  <input type="text" id="initials">
+                  <button id="initials-btn">Submit</button>
+              </form>
+              
+          </section>
+  
+          <section class="score hidden">
+              <button id="replay">Replay</button>
+          </section>
+      
+    </main>
+  </body>
+   <script src="./script.js"></script>
+  </html>
